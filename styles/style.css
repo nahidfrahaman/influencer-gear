@@ -83,3 +83,46 @@ ul li:hover a{
     border-radius: 41px;
     margin-top: 50px;
 }
+/*--------- shopping site styles ------*/
+.shopping-sites{
+    width: 76%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(217, 219, 225, 0.3);
+    
+    border-left: none;
+    border-right:none;
+    padding: 30px;
+    
+}
+
+ /* populler collecton section styles */
+
+ .popular-container{
+    width: 80%;
+    margin: 0 auto;
+ }
+ .pupuler-title{
+    text-align: center;
+ }
+ .collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+ }
+ .individual-collecton{
+    padding: 14px;
+    border-radius: 5px;
+    box-shadow:0 0 40px rgba(0, 0, 0,0.15) ;
+ }
+
+}
+.rating{
+    display: flex;
+}
+ .filled{
+    color: #FB8200;
+ }
